@@ -1,0 +1,15 @@
+{
+  "originHash" : "e9c1f3b5347be21d5465c5aa68aeda4d32d311dc71276c1360cd2efc204f49cf",
+  "pins" : [
+    {
+      "identity" : "datamarketplace",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sankalp-verma-iphtech/DataMarketPlace",
+      "state" : {
+        "revision" : "87856a456c744033726c40b5427d1b7e3480cc0f",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
