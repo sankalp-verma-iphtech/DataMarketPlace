@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "dataMarketplacePackage",
+    name: "datamarketplacepackage",
     platforms: [
         .iOS(.v13),
         .macOS(.v10_15)
@@ -15,14 +15,13 @@ let package = Package(
             targets: ["DataMarketplacePackage"]
         )
     ],
-    dependencies: [
-        .package(url: "https://github.com/sankalp-verma-iphtech/DataMarketPlace", from: "1.0.0")
-
-    ],
+    dependencies: [],
     targets: [
         .target(
             name: "DataMarketplacePackage",
-            path: "Sources"
+            path: "Sources",
+            exclude: [".swiftpm"] // Exclude this directory
         )
     ]
 )
+
